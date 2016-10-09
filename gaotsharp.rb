@@ -9,7 +9,7 @@ class GaotSharp
             elsif token =~ /^blee+t$/
                 ["e", token.length - 4]
             else
-                fail "Y U DO DIS ;_; THE GAOT DONT UNDERSTAND #{token.inspect} ;_; I WILL NOT GIVE YOU CHEESE"
+                fail ";_; Y U DO DIS. THE GAOT NO UNDERSTAND #{token.inspect} ;_; GOAT NO GIV CHES"
             end
         end
         @ast = GaotSharp.parse tokens
